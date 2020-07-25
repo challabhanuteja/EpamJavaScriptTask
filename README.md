@@ -1,3 +1,3 @@
 # EpamJavaScriptTask
-form validation using JavaScript
-to preview website goto : https://challabhanuteja.github.io/EpamJavaScriptTask/
+form validation using JavaScript. 
+To preview website goto : https://challabhanuteja.github.io/EpamJavaScriptTask/
