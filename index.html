@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="validate.js"></script>
+    <title>Bhanu Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <div id="errors">
+            <p id="inv-name"></p>
+            <p id="inv-password"></p>
+            <p id="inv-email"></p>
+            <p id="inv-phone"></p>
+            <p id="inv-dob"></p>
+        </div>
+        <form action="#" class="form" onsubmit="validateForm()">
+            <div class="form-ele">
+                Name: <input type="text" name="name" id="name" onchange="checkName()">
+            </div>
+            <div class="form-ele">
+                Password: <input type="password" name="password" id="password" onchange="checkPassword()">
+            </div>
+            <div class="form-ele">
+                Email: <input type="email" name="email" id="email" onchange="checkEmail()">
+            </div>
+            <div class="form-ele">
+                Phone no: <input type="text" name="phone" id="phone" onchange="checkPhone()">
+            </div>
+            <div class="form-ele">
+                Gender:
+                <div class="form-sub-ele">
+                    <input type="radio" name="gender" id="Male" checked>Male
+                    <input type="radio" name="gender" id="Female">Female
+                </div>
+            </div>
+            <div class="form-ele">
+                Date of Birth (MM/DD/YYYY): <input type="text" name="date" id="date" onchange="checkDOB()">
+            </div>
+            <div class="form-ele">
+                Address: <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            </div>
+            <input id  ="submit" type="submit" value="Submit">
+        </form>
+        
+    </div>
+</body>
+
+</html>
